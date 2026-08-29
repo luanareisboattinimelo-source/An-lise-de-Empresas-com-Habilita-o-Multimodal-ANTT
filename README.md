@@ -1,22 +1,17 @@
-Pergunta 1
+**Pergunta 1**
 
 Qual é a quantidade de empresas com habilitação multimodal em cada estado (UF)?
 
-Foi utilizada a fórmula COUNTIF (CONT.SE no Excel em português) para contar as empresas de cada UF.
-
 Resultado: o estado com maior quantidade é SP, com 569 empresas.
+          Fórmula utilizada: =CONT.SE(operador_transporte_multimodal!F:F;Gráficos!A5)
 
-O resultado está representado em um gráfico de barras na aba Pergunta 1.
+**Pergunta 2**
 
-Pergunta 2
+Quantas empresas possuem habilitação multimodal em cada estado da região Sudeste?
 
-Qual é a distribuição das empresas segundo a adesão ao Decreto nº 1.563/95?
+R: SP-569, RJ-110, MG-71, ES-22. Total=772
+     Fórmula utilizada: =SOMA(B5;B8;B25;B26)
 
-Foi utilizada a fórmula COUNTIF (CONT.SE no Excel em português) para contar as empresas com resposta Sim e Não.
 
-Resultado: foram identificadas 275 empresas com "Sim" e 1107 empresas com "Não".
-
-O resultado está representado em um gráfico de pizza na aba Pergunta 2.
-
-https://centropaulasouza-my.sharepoint.com/:x:/r/personal/luana_melo7_aluno_cps_sp_gov_br/Documents/operador_transporte_multimodal%20lulu.xlsx?d=wfdbcec19c5db4438aa2d433bb48e9a79&csf=1&web=1&e=DnrXfx
-<img width="1095" height="472" alt="Capturar" src="https://github.com/user-attachments/assets/c96ca6f2-62e8-47ab-8c59-2738d644b5dd" />
+https://centropaulasouza-my.sharepoint.com/:x:/r/personal/luana_melo7_aluno_cps_sp_gov_br/Documents/operador_transporte_multimodal%20lulu.xlsx?d=wfdbcec19c5db4438aa2d433bb48e9a79&csf=1&web=1&e=B5gksL
+<img width="1229" height="391" alt="Capturar3" src="https://github.com/user-attachments/assets/21ea052f-f466-47a9-9685-7b6a893c25ba" />
