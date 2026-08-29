@@ -3,6 +3,7 @@
 Qual é a quantidade de empresas com habilitação multimodal em cada estado (UF)?
 
 Resultado: o estado com maior quantidade é SP, com 569 empresas.
+         
           Fórmula utilizada: =CONT.SE(operador_transporte_multimodal!F:F;Gráficos!A5)
 
 **Pergunta 2**
@@ -10,6 +11,7 @@ Resultado: o estado com maior quantidade é SP, com 569 empresas.
 Quantas empresas possuem habilitação multimodal em cada estado da região Sudeste?
 
 R: SP-569, RJ-110, MG-71, ES-22. Total=772
+  
      Fórmula utilizada: =SOMA(B5;B8;B25;B26)
 
 
